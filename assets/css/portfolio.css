@@ -1,0 +1,23 @@
+/* Stylesheets for
+PORTFOLIO.HTML ONLY */
+
+.portfolio {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.02em;
+  padding: 0.01em;
+}
+.snapshot-banner {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  width: 240px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 9em;
+  padding: 0.5em 0 0.5em 0;
+}

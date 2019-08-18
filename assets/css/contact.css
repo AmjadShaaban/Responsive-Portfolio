@@ -1,0 +1,28 @@
+/* Stylesheets for
+CONTACT.HTML ONLY */
+
+.contact {
+  line-height: 2em;
+  padding: 2em;
+}
+#box {
+  width: 95%;
+  height: 1.5em;
+  border: 0.01em solid #dddddd;
+}
+#message-box {
+  width: 95%;
+  height: 16em;
+  border: 0.01em solid #dddddd;
+  background-image: url("../images/email-pattern.png");
+}
+input[type="submit"],
+input[type="reset"] {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
